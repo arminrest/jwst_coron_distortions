@@ -31,4 +31,125 @@ jwst_wcs_align_batch.py -vv --overwrite --input_files /ifs/jwst/wit/nircam/commi
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-run_st_wcs_align.py  /Users/arest/nircam/jwst_coron_distortions/1481/CAL/LW/BAR/jw01481001002_06101_00001_nrcalong_cal.fits --outrootdir '/Users/arest/nircam/jwst_coron_distortions/jhat' --outsubdir test -vvv --refcat /Users/arest/nircam/jwst_distortions_tools/LMC_gaia_DR3.nrcposs --saveplots -tt -pp  --histocut_order dxdy --objmag_lim 17 22.5 --iterate_with_xyshifts --skip_if_exists --overwr --rough_cut_px_min 1.5 --rough_cut_px_max 1.5 --d_rotated_Nsigma 5.0 --sip_err 1.0
+1481/
+1481/CAL/
+1481/CAL/LW/
+1481/CAL/LW/BAR/
+1481/CAL/LW/BAR/jw01481001002_06101_00001_nrcalong_cal.fits
+1481/CAL/LW/BAR/jw01481001002_06101_00002_nrcalong_cal.fits
+1481/CAL/LW/BAR/jw01481002001_06101_00001_nrcalong_cal.fits
+1481/CAL/LW/BAR/jw01481002001_06101_00002_nrcalong_cal.fits
+1481/CAL/LW/BAR/jw01481002002_06101_00001_nrcalong_cal.fits
+1481/CAL/LW/BAR/jw01481002002_06101_00002_nrcalong_cal.fits
+1481/CAL/LW/CLR/
+1481/CAL/LW/CLR/jw01481001002_02101_00001_nrcalong_cal.fits
+1481/CAL/LW/CLR/jw01481001002_02101_00002_nrcalong_cal.fits
+1481/CAL/LW/CLR/jw01481002001_02101_00001_nrcalong_cal.fits
+1481/CAL/LW/CLR/jw01481002001_02101_00002_nrcalong_cal.fits
+1481/CAL/LW/CLR/jw01481002002_02101_00001_nrcalong_cal.fits
+1481/CAL/LW/CLR/jw01481002002_02101_00002_nrcalong_cal.fits
+1481/CAL/LW/RND/
+1481/CAL/LW/RND/jw01481001002_04101_00001_nrcalong_cal.fits
+1481/CAL/LW/RND/jw01481001002_04101_00002_nrcalong_cal.fits
+1481/CAL/LW/RND/jw01481002001_04101_00001_nrcalong_cal.fits
+1481/CAL/LW/RND/jw01481002001_04101_00002_nrcalong_cal.fits
+1481/CAL/LW/RND/jw01481002002_04101_00001_nrcalong_cal.fits
+1481/CAL/LW/RND/jw01481002002_04101_00002_nrcalong_cal.fits
+1481/CAL/SW/
+1481/CAL/SW/BAR/
+1481/CAL/SW/BAR/COM/
+1481/CAL/SW/BAR/COM/jw01481001002_06101_00001_nrca4_cal.fits
+1481/CAL/SW/BAR/COM/jw01481001002_06101_00002_nrca4_cal.fits
+1481/CAL/SW/BAR/COM/jw01481002001_06101_00001_nrca4_cal.fits
+1481/CAL/SW/BAR/COM/jw01481002001_06101_00002_nrca4_cal.fits
+1481/CAL/SW/BAR/COM/jw01481002002_06101_00001_nrca4_cal.fits
+1481/CAL/SW/BAR/COM/jw01481002002_06101_00002_nrca4_cal.fits
+1481/CAL/SW/BAR/OTHER/
+1481/CAL/SW/BAR/OTHER/jw01481001002_06101_00001_nrca1_cal.fits
+1481/CAL/SW/BAR/OTHER/jw01481001002_06101_00001_nrca2_cal.fits
+1481/CAL/SW/BAR/OTHER/jw01481001002_06101_00001_nrca3_cal.fits
+1481/CAL/SW/BAR/OTHER/jw01481001002_06101_00002_nrca1_cal.fits
+1481/CAL/SW/BAR/OTHER/jw01481001002_06101_00002_nrca2_cal.fits
+1481/CAL/SW/BAR/OTHER/jw01481001002_06101_00002_nrca3_cal.fits
+1481/CAL/SW/BAR/OTHER/jw01481002001_06101_00001_nrca1_cal.fits
+1481/CAL/SW/BAR/OTHER/jw01481002001_06101_00001_nrca2_cal.fits
+1481/CAL/SW/BAR/OTHER/jw01481002001_06101_00001_nrca3_cal.fits
+1481/CAL/SW/BAR/OTHER/jw01481002001_06101_00002_nrca1_cal.fits
+1481/CAL/SW/BAR/OTHER/jw01481002001_06101_00002_nrca2_cal.fits
+1481/CAL/SW/BAR/OTHER/jw01481002001_06101_00002_nrca3_cal.fits
+1481/CAL/SW/BAR/OTHER/jw01481002002_06101_00001_nrca1_cal.fits
+1481/CAL/SW/BAR/OTHER/jw01481002002_06101_00001_nrca2_cal.fits
+1481/CAL/SW/BAR/OTHER/jw01481002002_06101_00001_nrca3_cal.fits
+1481/CAL/SW/BAR/OTHER/jw01481002002_06101_00002_nrca1_cal.fits
+1481/CAL/SW/BAR/OTHER/jw01481002002_06101_00002_nrca2_cal.fits
+1481/CAL/SW/BAR/OTHER/jw01481002002_06101_00002_nrca3_cal.fits
+1481/CAL/SW/CLR/
+1481/CAL/SW/CLR/jw01481001002_02101_00001_nrca1_cal.fits
+1481/CAL/SW/CLR/jw01481001002_02101_00001_nrca2_cal.fits
+1481/CAL/SW/CLR/jw01481001002_02101_00001_nrca3_cal.fits
+1481/CAL/SW/CLR/jw01481001002_02101_00001_nrca4_cal.fits
+1481/CAL/SW/CLR/jw01481001002_02101_00002_nrca1_cal.fits
+1481/CAL/SW/CLR/jw01481001002_02101_00002_nrca2_cal.fits
+1481/CAL/SW/CLR/jw01481001002_02101_00002_nrca3_cal.fits
+1481/CAL/SW/CLR/jw01481001002_02101_00002_nrca4_cal.fits
+1481/CAL/SW/CLR/jw01481002001_02101_00001_nrca1_cal.fits
+1481/CAL/SW/CLR/jw01481002001_02101_00001_nrca2_cal.fits
+1481/CAL/SW/CLR/jw01481002001_02101_00001_nrca3_cal.fits
+1481/CAL/SW/CLR/jw01481002001_02101_00001_nrca4_cal.fits
+1481/CAL/SW/CLR/jw01481002001_02101_00002_nrca1_cal.fits
+1481/CAL/SW/CLR/jw01481002001_02101_00002_nrca2_cal.fits
+1481/CAL/SW/CLR/jw01481002001_02101_00002_nrca3_cal.fits
+1481/CAL/SW/CLR/jw01481002001_02101_00002_nrca4_cal.fits
+1481/CAL/SW/CLR/jw01481002002_02101_00001_nrca1_cal.fits
+1481/CAL/SW/CLR/jw01481002002_02101_00001_nrca2_cal.fits
+1481/CAL/SW/CLR/jw01481002002_02101_00001_nrca3_cal.fits
+1481/CAL/SW/CLR/jw01481002002_02101_00001_nrca4_cal.fits
+1481/CAL/SW/CLR/jw01481002002_02101_00002_nrca1_cal.fits
+1481/CAL/SW/CLR/jw01481002002_02101_00002_nrca2_cal.fits
+1481/CAL/SW/CLR/jw01481002002_02101_00002_nrca3_cal.fits
+1481/CAL/SW/CLR/jw01481002002_02101_00002_nrca4_cal.fits
+1481/CAL/SW/RND/
+1481/CAL/SW/RND/COM/
+1481/CAL/SW/RND/COM/jw01481001002_04101_00001_nrca2_cal.fits
+1481/CAL/SW/RND/COM/jw01481001002_04101_00002_nrca2_cal.fits
+1481/CAL/SW/RND/COM/jw01481002001_04101_00001_nrca2_cal.fits
+1481/CAL/SW/RND/COM/jw01481002001_04101_00002_nrca2_cal.fits
+1481/CAL/SW/RND/COM/jw01481002002_04101_00001_nrca2_cal.fits
+1481/CAL/SW/RND/COM/jw01481002002_04101_00002_nrca2_cal.fits
+1481/CAL/SW/RND/OTHER/
+1481/CAL/SW/RND/OTHER/jw01481001002_04101_00001_nrca1_cal.fits
+1481/CAL/SW/RND/OTHER/jw01481001002_04101_00001_nrca3_cal.fits
+1481/CAL/SW/RND/OTHER/jw01481001002_04101_00001_nrca4_cal.fits
+1481/CAL/SW/RND/OTHER/jw01481001002_04101_00002_nrca1_cal.fits
+1481/CAL/SW/RND/OTHER/jw01481001002_04101_00002_nrca3_cal.fits
+1481/CAL/SW/RND/OTHER/jw01481001002_04101_00002_nrca4_cal.fits
+1481/CAL/SW/RND/OTHER/jw01481002001_04101_00001_nrca1_cal.fits
+1481/CAL/SW/RND/OTHER/jw01481002001_04101_00001_nrca3_cal.fits
+1481/CAL/SW/RND/OTHER/jw01481002001_04101_00001_nrca4_cal.fits
+1481/CAL/SW/RND/OTHER/jw01481002001_04101_00002_nrca1_cal.fits
+1481/CAL/SW/RND/OTHER/jw01481002001_04101_00002_nrca3_cal.fits
+1481/CAL/SW/RND/OTHER/jw01481002001_04101_00002_nrca4_cal.fits
+1481/CAL/SW/RND/OTHER/jw01481002002_04101_00001_nrca1_cal.fits
+1481/CAL/SW/RND/OTHER/jw01481002002_04101_00001_nrca3_cal.fits
+1481/CAL/SW/RND/OTHER/jw01481002002_04101_00001_nrca4_cal.fits
+1481/CAL/SW/RND/OTHER/jw01481002002_04101_00002_nrca1_cal.fits
+1481/CAL/SW/RND/OTHER/jw01481002002_04101_00002_nrca3_cal.fits
+1481/CAL/SW/RND/OTHER/jw01481002002_04101_00002_nrca4_cal.fits
+
+---------------------------------------
+
+run_st_wcs_align.py  /Users/arest/nircam/jwst_coron_distortions/1481/CAL/LW/BAR/jw01481001002_06101_00001_nrcalong_cal.fits --outrootdir '/Users/arest/nircam/jwst_coron_distortions/jhat' --outsubdir test -vvv --refcat /Users/arest/nircam/jwst_distortions_tools/LMC_gaia_DR3.nrcposs --saveplots -tt -pp  --histocut_order dxdy --objmag_lim 17 23.5 --iterate_with_xyshifts --skip_if_exists --overwr --rough_cut_px_min 1.5 --rough_cut_px_max 1.5 --d_rotated_Nsigma 0.0 --sip_err 1.0
+
+run_st_wcs_align_batch.py --overwrite --input_dir  /Users/arest/nircam/jwst_coron_distortions/1481/CAL/LW/BAR --input_files '*_cal.fits' --outrootdir '/Users/arest/nircam/jwst_coron_distortions/jhat' --outsubdir v1 -vvv --refcat /Users/arest/nircam/jwst_distortions_tools/LMC_gaia_DR3.nrcposs --saveplots -tt --histocut_order dxdy --objmag_lim 17 23.5 --iterate_with_xyshifts --skip_if_exists --overwr --rough_cut_px_min 1.5 --rough_cut_px_max 1.5 --d_rotated_Nsigma 0.0 --sip_err 1.0 --addfilter2outsubdir  
+
+run_st_wcs_align_batch.py --overwrite --input_dir  /Users/arest/nircam/jwst_coron_distortions/1481/CAL/LW/RND --input_files '*_cal.fits' --outrootdir '/Users/arest/nircam/jwst_coron_distortions/jhat' --outsubdir v1 -vvv --refcat /Users/arest/nircam/jwst_distortions_tools/LMC_gaia_DR3.nrcposs --saveplots -tt --histocut_order dxdy --objmag_lim 17 23.5 --iterate_with_xyshifts --skip_if_exists --overwr --rough_cut_px_min 1.5 --rough_cut_px_max 1.5 --d_rotated_Nsigma 0.0 --sip_err 1.0 --addfilter2outsubdir  
+
+run_st_wcs_align_batch.py --overwrite --input_dir  /Users/arest/nircam/jwst_coron_distortions/1481/CAL/SW/BAR/OTHER --input_files '*_cal.fits' --outrootdir '/Users/arest/nircam/jwst_coron_distortions/jhat' --outsubdir v1 -vvv --refcat /Users/arest/nircam/jwst_distortions_tools/LMC_gaia_DR3.nrcposs --saveplots -tt --histocut_order dxdy --objmag_lim 17 23.5 --iterate_with_xyshifts --skip_if_exists --overwr --rough_cut_px_min 1.5 --rough_cut_px_max 1.5 --d_rotated_Nsigma 0.0 --sip_err 4.0 --addfilter2outsubdir  
+
+run_st_wcs_align_batch.py --overwrite --input_dir  /Users/arest/nircam/jwst_coron_distortions/1481/CAL/SW/BAR/COM --input_files '*_cal.fits' --outrootdir '/Users/arest/nircam/jwst_coron_distortions/jhat' --outsubdir v1 -vvv --refcat /Users/arest/nircam/jwst_distortions_tools/LMC_gaia_DR3.nrcposs --saveplots -tt --histocut_order dxdy --objmag_lim 17 23.5 --iterate_with_xyshifts --skip_if_exists --overwr --rough_cut_px_min 1.5 --rough_cut_px_max 1.5 --d_rotated_Nsigma 0.0 --sip_err 2.0 --addfilter2outsubdir  
+
+run_st_wcs_align_batch.py --overwrite --input_dir  /Users/arest/nircam/jwst_coron_distortions/1481/CAL/SW/RND/COM --input_files '*_cal.fits' --outrootdir '/Users/arest/nircam/jwst_coron_distortions/jhat' --outsubdir v1 -vvv --refcat /Users/arest/nircam/jwst_distortions_tools/LMC_gaia_DR3.nrcposs --saveplots -tt --histocut_order dxdy --objmag_lim 17 23.5 --iterate_with_xyshifts --skip_if_exists --overwr --rough_cut_px_min 1.5 --rough_cut_px_max 1.5 --d_rotated_Nsigma 0.0 --sip_err 4.0 --addfilter2outsubdir  
+
+run_st_wcs_align_batch.py --overwrite --input_dir  /Users/arest/nircam/jwst_coron_distortions/1481/CAL/SW/RND/OTHER --input_files '*_cal.fits' --outrootdir '/Users/arest/nircam/jwst_coron_distortions/jhat' --outsubdir v1 -vvv --refcat /Users/arest/nircam/jwst_distortions_tools/LMC_gaia_DR3.nrcposs --saveplots -tt --histocut_order dxdy --objmag_lim 17 23.5 --iterate_with_xyshifts --skip_if_exists --overwr --rough_cut_px_min 1.5 --rough_cut_px_max 1.5 --d_rotated_Nsigma 0.0 --sip_err 4.0 --addfilter2outsubdir  
+
+ rsync -rvz /Users/arest/nircam/jwst_coron_distortions/jhat /ifs/jwst/wit/nircam/distortions/coron_test/1481
